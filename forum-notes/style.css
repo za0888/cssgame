@@ -24,7 +24,7 @@
     flex: 1;
 }
 .input-box input::after,.input-box label::after{
-    content: ' is';
+    content: ' - ';
     font-weight: bold;
     color: red;
 }
@@ -39,9 +39,10 @@
 .button> button {
     /*class button introduced because button is not submited to flex*/
     text-decoration: none;
+    border-radius: 10px;
     padding: 1rem 2rem 1rem 2rem;
     margin: 0 auto;
-    background-color: darkgrey;
+    background-color: teal;
     color: white;
     font-size: 1rem;
     box-shadow: 10px 10px grey;
