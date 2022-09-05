@@ -1,0 +1,12 @@
+h1{
+    display: flex;
+    /*position: relative;*/
+}
+h1::before{
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 10%;
+    height: 5px;
+
+}

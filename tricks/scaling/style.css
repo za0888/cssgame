@@ -1,0 +1,9 @@
+html{
+    font-size: 18px;
+}
+.el{
+    /*margin in em base inthe .el font-size*/
+    /*the using mediq query just change html{font size}*/
+    margin: 2em;
+    font-size: 1.3rem;
+}

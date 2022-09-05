@@ -1,0 +1,10 @@
+.parent{
+    display: grid;
+    background-color: black;
+    place-content: center;
+}
+.any{
+    background-color: white;
+    margin: 10vw;
+    padding: 10vw;
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.form-layout {
+
+}
+
+
+.form-row {
+    display: flex;
+    padding: 10px;
+}
+
+.form-row input {
+    flex: 12;
+    padding: 10px 0;
+}
+
+.form-row label {
+    flex: 1;
+    padding: 10px 0;
+}
+
+/*section with sidebars*/
+.layout {
+    display: flex;
+    max-width: 1300px;
+    background-color: white;
+    margin: 40px auto 0 auto;
+    padding: 1vw 3vw;
+    gap: 2vw;
+}
+
+.sidebar-1 {
+    order: 1;
+    flex: 1;
+}
+
+.sidebar-2 {
+    order: 3;
+    flex: 1;
+}
+
+.main-column {
+    flex: 4;
+    order: 2;
+}

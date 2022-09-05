@@ -1,0 +1,12 @@
+.parent {
+    display: grid;
+    background-color: gray;
+    height: 100vh;
+    place-content: center;
+}
+
+.item {
+    background-color: white;
+    width: 20vw;
+    padding: 10%;
+}

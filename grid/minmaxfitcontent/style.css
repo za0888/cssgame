@@ -1,0 +1,13 @@
+h1{
+    font-size: clamp(2rem,5vw + 1rem,5rem);
+    color: red;
+    width: min-content;
+    /*width: fit-content;*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,0.7315301120448179) 27%, rgba(0,212,255,1) 100%);
+}
+/*1、 What is VW PX REM em
+1.vw/vh: it refers to the width or height of the relative viewport. 100vw is equal to the entire screen width and 100vh is equal to the entire screen height. 1vw = 1% * viewport width. It means that a viewport is 100vw. Length and width equal to 1/100 of the window length or width
+For example: 1920×800 design draft
+Conversion 1/1001920=19.nav menu so 1vw=19.2px; Namely: 1vw/y=100vw/1920px
+Conversion 1/100800=8 so 1vh=8px;*/

@@ -1,0 +1,11 @@
+html{
+
+}
+h1{
+    padding: 1rem;
+    font-size: clamp(24px,5vw,70px)
+}
+p{
+    margin: clamp(0.5em,5vw,8em);
+    font-size: clamp(1em,2vw,2em);
+}

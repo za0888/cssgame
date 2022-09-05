@@ -1,0 +1,21 @@
+.nav-menu {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /*grid-template-columns: repeat(auto-fill,minmax(120px,1fr));*/
+    display: grid;
+    gap: clamp(4px, 8px, 12px);
+}
+
+@media (min-width: 700px) {
+    .nav-menu {
+        grid-template-columns: repeat(4,14vw);
+        align-content: center;
+    }
+
+}
+
+.nav_item {
+    text-align: center;
+    padding: 1vw;
+    background-color: lightgrey;
+}
